@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:700);
+
+$body-bg:											#7f8c8d;
+$navbar-default-link-color:			Black;
+
+@import 'bootstrap';
+
+.center {
+	text-align:	center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 30px;
+	font-color: black;
+	}

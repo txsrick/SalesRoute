@@ -1,0 +1,16 @@
+<div class="jumbotron">
+	<h2>Customers</h2>
+	
+	<ul class="list-group">
+		<% @customers.each do |customer| %>
+			<li class="list-group-item">
+				<address>
+					<strong><%= customer.customername %> #<%= customer.customer_number %></strong><br>
+					<%= customer.streetaddress %> <%= customer.streetaddress2 %><br>
+					<%= customer.city %>, <%= customer.state %> <%= customer.zip %>
+				</address>	
+			</li>
+		<% end %>
+	</ul>
+	<span class="glyphicon glyphicon-user" aria-hidden="false"></span>
+</div>
