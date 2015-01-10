@@ -24,6 +24,8 @@ module SalesRoute
     config.active_record.raise_in_transactional_callbacks = true
         console do
       ActiveRecord::Base.connection
+
     end
+    config.assets.initialize_on_precompile = false
   end
 end
