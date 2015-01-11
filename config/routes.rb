@@ -3,5 +3,8 @@ Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
 
-  get "customers" => "customers#index"
-end
+  #get "customers" => "customers#index"
+  resources :customers do
+  	collection { post :import }
+	end
+end		

@@ -9,6 +9,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'roo'
+gem "iconv", "~> 1.0.3"
 
 group :development, :test do
 	gem 'sqlite3'
